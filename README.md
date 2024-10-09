@@ -24,3 +24,28 @@ Double 4: 32 times (3,20%)
 Double 5: 29 times (2,90%)
 Double 6: 30 times (3,00%)
 ```
+
+
+msTest.java print output:
+```
+9
+0 ms
+```
+
+This project successfully implemented a two-player dice game in Java, adhering to object-
+oriented programming principles and the specified project requirements. Through the design
+and development process, we created modular and maintainable classes such as
+GameInitialization, Player, DiceRollMechanism, and DiceResult, each responsible for a specific part of the game’s functionality. 
+
+The use of getter and setter methods in the Player class ensured proper encapsulation, while the random number generation in
+the DiceRollMechanism class provided fairness and unpredictability to the dice rolls.
+Performance considerations, such as ensuring dice rolls occurred within the 333-millisecond
+limit, were met, confirming the efficiency of the implementation. We conducted thorough
+testing to validate the correctness of the game’s logic, including verifying dice roll probabili-
+ties and handling edge cases like tied scores. The results from 1000 dice rolls showed a close
+match between the expected and actual frequencies, further affirming the reliability of the
+random number generation.
+
+The final product meets the initial objectives, providing a fully functional, responsive, and
+fair two-player dice game. Future enhancements could involve extending the game with more
+complex rules or adding a graphical user interface to improve user interaction
