@@ -68,5 +68,6 @@ public class GameInitialization {
         } else {
             System.out.println(player2.getPlayerName() + " won!");
         }
+        scanner.close();
     }
 }
